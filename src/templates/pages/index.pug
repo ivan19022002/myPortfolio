@@ -1,0 +1,26 @@
+extends ../template.pug
+
+block variables
+    - var title = "Добро пожаловать"
+
+block content    
+    div.wrapper
+        div.maincontent 
+            div.head
+                a(href="#", title="title").loginLink
+                    div.buttonLogin Авторизироватся  
+            div.card 
+                img.myImg(src="../images/myImg.jpg")
+                div.myName Матвийчук Иван
+                div.developer Личный сайт веб-разработчика
+                div.social 
+                    a(href="#", title="title")
+                                                     
+                div.buttons 
+                    div.button.leftButton
+                       a(href="my-works.html", title="title").class Мои работы
+                    div.button.centerButton
+                       a(href="about.html", title="title").class Обо мне
+                    div.button.rightButton
+                       a(href="blog.html", title="title").class Блог 
+        div.footer © Владимир Астахов | создано с любовью в LoftSchool | 2016

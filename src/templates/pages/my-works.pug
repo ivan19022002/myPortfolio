@@ -1,0 +1,14 @@
+extends ../template.pug
+
+block variables
+    - var title = "Добро пожаловать"
+
+block content
+    div.wrapper   
+        div.header 
+           div.header__left 
+           div.header__right
+        div.welcome 
+            img(src="../images/myImg.png", alt="").myImg
+            div.myName Матвийчук Иван
+            div.developer Личный сайт веб-разработчика     

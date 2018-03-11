@@ -1,0 +1,131 @@
+//fonts
+$title: 63px
+$under-title: 35px
+$main-text: 16px
+
+//fonts import
+@import url('https://fonts.googleapis.com/css?family=Roboto')
+
+//colors
+$light-green: #6c9c5a
+$green: #4e8839
+$grey: #566358
+$dark: #373e42
+
+//media querys
+$big: 1800px
+$medium: 1200px
+$ipad: 768px
+$iphone: 320px
+
+//layout
+body,html 
+    margin: 0
+    bottom: 0
+
+//index
+.wrapper
+    background-image: url(../images/water.jpg)
+    background-size: cover
+    height: 100vh
+    background-repeat: no-repeat
+    background-position: center
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
+
+.card
+    background-color: #122620
+    width: 380px
+    height: 395px
+    border-radius: 8px
+    display: flex
+    justify-content: space-around
+    align-items: center
+    flex-direction: column
+
+.myName
+    font-family: 'Roboto', sans-serif
+    font-weight: 500
+    font-size: 28px
+    position: relative
+    margin-top: 20px
+    color: white
+
+.developer
+    position: relative
+    margin-top: 25px
+    color: white
+
+.myImg
+    border-radius: 100px
+    position: relative
+    margin-top: 40px
+
+.buttons
+    border-bottom-left-radius: 8px
+    border-bottom-right-radius: 8px
+    display: flex
+    flex-direction: row
+    height: 45px
+    justify-content: space-around
+    width: 100%
+    align-items: center
+
+.button
+    background-color: $light-green    
+    height: 45px
+    display: flex
+    align-items: center
+    justify-content: center
+     box-sizing: border-box
+    &:hover
+        background-color: $green
+
+.centerButton
+    border-left: 5px solid #a0b99e
+    border-right: 5px solid #a0b99e
+    width: 125px
+
+.leftButton
+    border-bottom-left-radius: 8px  
+    width: 154px
+
+.rightButton
+    border-bottom-right-radius: 8px
+    width: 97px
+
+.button a 
+    
+    text-decoration: none 
+    color: #eef2ed
+
+.loginLink
+    text-decoration: none
+    color: white
+    position: absolute
+    top: 22px
+    right: 100px
+    border-radius: 30px
+    &:hover
+        background-color: $light-green
+        
+        
+.buttonLogin
+    width: 180px
+    height: 45px
+    border: 2px solid white 
+    border-radius: 30px
+    display: flex
+    justify-content: center
+    align-items: center
+    &:hover
+        border: 2px solid #729e19
+
+.footer
+    position: absolute
+    bottom: 40px
+
+//my-works
+
